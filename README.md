@@ -1,0 +1,2 @@
+# Aliases
+Do you often find yourself typing a long command on the command line or searching the bash history for a previously typed command? If your answer to any of those questions is yes, then you will find bash aliases handy. Bash aliases allow you to set a memorable shortcut command for a longer command.  Bash aliases are essentially shortcuts that can save you from having to remember long commands and eliminate a great deal of typing when you are working on the command line. For example, you could set the alias tgz to be a shortcut for the tar -xvfz command .
