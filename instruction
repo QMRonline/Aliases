@@ -1,0 +1,19 @@
+Creating Bash Aliases
+Creating aliases in bash is very straight forward. The syntax is as follows:
+
+alias alias_name="command_to_run"
+Copy
+An alias declaration starts with the alias keyword followed by the alias name, an equal sign and the command you want to run when you type the alias. The command needs to be enclosed in quotes and with no spacing around the equal sign. Each alias needs to be declared on a new line.
+
+Lets see some example :
+one command 
+└─$ ifconfig | grep collisions | awk '{print $3}'
+
+myname
+─$ alias myname="whoami"
+
+alias c="clear"
+
+You do much more by setting up these as templates to run quick attacks of nmap and stuff hope this kick starts you.
+
+have fun happy hacking !
